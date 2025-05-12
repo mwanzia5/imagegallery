@@ -34,3 +34,11 @@ h1{
 .active{
     flex-basis: 50%;
 }
+
+.gallery:hover .active{
+    flex-basis: 0;
+}
+
+.image-box:nth-child(1):hover{
+    flex-basis: 50;
+}
